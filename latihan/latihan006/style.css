@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+/* navbar */
+nav{
+    display: flex;
+    background-color: gray;
+    justify-content: space-around;
+    /* padding: 20px 0; */
+    color: rgb(212, 210, 210);
+    height: 50px;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+}
+nav .logo{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+} 
+
+nav ul li a{
+    color: rgb(212, 210, 210);
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+nav ul li a:hover{
+    color: rgb(255, 255, 255);
+}
+
+/* Hamburger menu */
+.menu-toggle{
+    display: flex;
+    flex-direction: column;
+    height: 20px;
+    justify-content: space-between;
+    position: relative;
+}
+.menu-toggle input{
+    position: absolute;
+    width: 40px;
+    height: 28px;
+    left: -5px;
+    top: -3px;
+    opacity: 0;
+    cursor: pointer;
+}
+.menu-toggle span{
+    display: block;
+    width: 28px;
+    height: 3px;
+    background-color: rgb(212, 210, 210);
+    border-radius: 3px;
+}
+
+
+
+
+/* responsive breakpoint */
+
+/* ukuran ipadd */
+@media screen and (max-width: 768px){
+    nav ul {
+        width: 50%;
+    }
+}
+
+/* ukuran mobile */
+@media screen and (max-width: 576px){
+    nav ul{
+        display: none;
+    }
+}
