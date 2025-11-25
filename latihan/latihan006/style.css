@@ -5,6 +5,7 @@
 
 body{
     font-family: sans-serif;
+    overflow-x: hidden;
 }
 /* navbar */
 nav{
@@ -40,7 +41,7 @@ nav ul li a:hover{
 
 /* Hamburger menu */
 .menu-toggle{
-    display: flex;
+    display: none;
     flex-direction: column;
     height: 20px;
     justify-content: space-between;
@@ -101,7 +102,23 @@ nav ul li a:hover{
 
 /* ukuran mobile */
 @media screen and (max-width: 576px){
+    .menu-toggle{
+        display: flex;
+    }
     nav ul{
-        display: none;
+       position: absolute;
+       right: 0;
+       top: 0;
+       width: 80%;
+       height: 100vh;
+       align-items: center;
+       justify-content: space-evenly;
+       flex-direction: column;
+       z-index: -1 ;
+       background-color: gray;
+       transform: translateX(100%);
+    }
+    nav ul.slide{
+        transform: translateX(0); 
     }
 }
