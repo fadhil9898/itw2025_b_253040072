@@ -348,5 +348,13 @@ span{
 ::webkit-scrollbar-track{
     background-color: var(--bg-color);
     width: 50px;
-
 }
+.services{
+    margin-bottom: 5rem;
+    color: black;
+}
+.services h2{
+    margin-bottom: 5rem;
+    color: white;
+}
+.
