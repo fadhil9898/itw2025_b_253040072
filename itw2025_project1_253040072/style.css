@@ -212,8 +212,8 @@ section{
     0%,20%{ content: "BackEnd Developer"; }
     21%,40%{ content: "Frontend Developer"; }
     41%,60%{ content: "Full Stack"; }
-    61%,80%{ content: "UI / UX"; }
-    81%,100%{ content: "Web Developer"; }
+    61%,80%{ content: "Fighter"; }
+    81%,100%{ content: "Leader"; }
 }
 @keyframes typing{
     10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{ width: 0; } 
