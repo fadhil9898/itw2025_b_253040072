@@ -22,3 +22,11 @@ const items = [
     },
 ];
 
+
+document.querySelectorAll("#mobile-menu a").forEach(link => {
+  link.addEventListener("click", () => {
+    mobileMenu.classList.add("hidden");
+  });
+});
+
+
