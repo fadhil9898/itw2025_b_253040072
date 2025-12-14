@@ -1,19 +1,21 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="scroll-smooth md:scroll-auto">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Indo Drip</title>
+    <title>IndoDrip</title>
     <link rel="icon" href="asset/img/Logo/logo1-removebg-preview.png">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BBH+Bogle&family=Kings&family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&family=Science+Gothic:wght@100..900&family=Style+Script&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <!-- nav -->
-<nav id="navbar"
-  class="nav-transparent fixed top-0 w-full z-50 transition-all duration-300">
+    <!-- header -->
+<nav id="navbar" class="nav-transparent fixed top-0 w-full z-50 transition-all duration-300">
   <div class="max-w-7xl mx-auto px-4">
-    <div class="flex justify-between items-center h-16">
+    <div class="flex justify-between items-center h-16 ">
 
       <!-- Logo -->
       <div class="nav-text text-2xl text-white font-serif font-bold">
@@ -22,7 +24,7 @@
 
       <!-- Menu Desktop -->
       <div class="hidden md:flex space-x-8 font-medium">
-        <a href="#" class="text-white hover:text-red-500">Home</a>
+        <a href="#home" class="active rounded-full text-white hover:text-red-500">Home</a>
         <a href="#about" class="text-white hover:text-red-500">About</a>
         <a href="#portfolio" class="text-white hover:text-red-500">Portfolio</a>
         <a href="#contact" class="text-white hover:text-red-500">Contact</a>
@@ -43,19 +45,14 @@
 
   <!-- Mobile Menu -->
   <div id="mobile-menu"
-    class="hidden md:hidden flex flex-col
-         px-4 pb-4 space-y-3 
-         bg-transparent align-ends">
+    class="hidden md:hidden flex flex-col px-4 pb-4 space-y-3 bg-transparent align-ends">
     <a href="#" class="text-white hover:text-red-500">Home</a>
     <a href="#about" class="text-white hover:text-red-500">About</a>
     <a href="#portfolio" class="text-white hover:text-red-500">Portfolio</a>
     <a href="#contact" class="text-white hover:text-red-500">Contact</a>
   </div>
 </nav>
-
-
-    <!-- home -->
-    
+    <!-- carousel -->
 <section>
   <div id="default-carousel"
        class="relative w-full"
@@ -105,7 +102,11 @@
     </div>
   </div>
 </section>
-
+<!-- home content -->
+<section id="home" class="relative bg-white/70 py-20 px-4 text-center">
+  <h1 class="text-8xl font-bold bbh-bogle-regular text-gray-500 mb-4">Indo<span class="text-red-500">Drip</span></h1>
+  <p>Remastered for style, use on every waydul</p>
+</section>
 
 
 
