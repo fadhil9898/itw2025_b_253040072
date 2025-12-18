@@ -46,9 +46,12 @@
 
 ## 📸 Preview
 
-![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-2.png)
+Display Desktop
+![alt text](view display/image.png)
+Display Tab
+![alt text](view display/image-1.png)
+Display Phone
+![alt text](view display/image-2.png)
 
 ## 📌 Tujuan Proyek
 
