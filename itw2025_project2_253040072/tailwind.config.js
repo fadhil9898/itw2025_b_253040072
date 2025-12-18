@@ -18,7 +18,7 @@ export default {
       secondary: 'Jost',
     },
     backgroundImage: {
-      hero: 'url(/assets/hero/bg.jpg)',
+      hero: 'url(itw2025_b_253040072/itw2025_project2_253040072/assets/hero/bg.jpg)',
       grid: 'url(/assets/grid.png)',
     },
     extend: {
