@@ -27,6 +27,9 @@
 ├─ index.html
 ├─ script.js
 ├─ style.css
+├─ image-1.png
+├─ image-1.png
+├─ image.png
 └─ README.md
 ```
 
@@ -46,11 +49,13 @@
 
 ## 📸 Preview
 
-Display Desktop
+1. Display Desktop
 ![alt text](image.png)
-Display Tab
+
+2. Display Tab
 ![alt text](image-1.png)
-Display Phone
+
+3. Display Phone
 ![alt text](image-2.png)
 
 ## 📌 Tujuan Proyek
