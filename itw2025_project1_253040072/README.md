@@ -33,19 +33,8 @@
 └─ README.md
 ```
 
-## ⚙️ Cara Menjalankan Proyek
-
-1. Clone repository ini:
-
-   ```bash
-   git clone https://github.com/fadhil9898/itw2025_b_253040072.git
-   ```
-2. Masuk ke folder proyek:
-
-   ```bash
-   cd itw2025_b_253040072
-   ```
-3. Buka file `index.html` di browser atau jalankan dengan live server.
+## Demo Website
+🔗 https://fadhil9898.github.io/itw2025_b_253040072/itw2025_project1_253040072/
 
 ## 📸 Preview
 
