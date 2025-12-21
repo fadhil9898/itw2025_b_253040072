@@ -28,6 +28,7 @@ Project ini merupakan **Project 2** pada mata kuliah **Introduction to Web Techn
 - Struktur folder rapi dan terpisah berdasarkan fungsi
 
 ## Struktur Folder
+```
 ITW2025_B_253040072/
 ├── itw2025_project2_253040072/
 │ ├── assets/
@@ -55,6 +56,7 @@ ITW2025_B_253040072/
 │ ├── package-lock.json
 │ ├── tailwind.config.js
 │ └── README.md
+```
 
 ## Demo Website
 🔗 https://fadhil9898.github.io/itw2025_b_253040072/itw2025_project2_253040072/
