@@ -50,12 +50,21 @@
 ## 📸 Preview
 
 1. Display Desktop
+
+
+
 ![alt text](image.png)
 
 2. Display Tab
+
+
+
 ![alt text](image-1.png)
 
 3. Display Phone
+
+
+
 ![alt text](image-2.png)
 
 ## 📌 Tujuan Proyek
